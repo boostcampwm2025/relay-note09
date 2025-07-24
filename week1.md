@@ -266,4 +266,5 @@ function solve(arr) {
 
 ### K004 -  AI로 시 이미지 생성
 키워드 `스레드`, `동시성`, `구조적 동시성`, `동기`, `비동기`
-<img width="781" height="792" alt="image" src="https://gist.github.com/user-attachments/assets/845eec9c-4b35-4bc6-bddd-ebe439b28600" />
+<img width="782" height="785" alt="image" src="https://github.com/user-attachments/assets/c1410772-d22f-4a14-ba29-6d334da4684e" />
+
