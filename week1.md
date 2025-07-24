@@ -259,3 +259,11 @@ function solve(arr) {
 - 성향별 “개발자 MBTI” 출력 기능
 - 극과 극 매칭(정반대 스타일 분석) 기능
 - 성향 기반 팀원 추천 기능으로 확장 가능
+
+
+---
+## 퀘스트 수행 
+
+### K004 -  AI로 시 이미지 생성
+키워드 `스레드`, `동시성`, `구조적 동시성`, `동기`, `비동기`
+<img width="781" height="792" alt="image" src="https://gist.github.com/user-attachments/assets/845eec9c-4b35-4bc6-bddd-ebe439b28600" />
