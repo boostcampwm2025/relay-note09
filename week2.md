@@ -159,6 +159,26 @@ FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaS
 
 확실히, claude.ai가 설명하기 위한 코드를 자세하게 설명해주는 느낌이다. gpt는 말로 조목조목 설명하는 느낌이고...
 
+### J147 송해찬
+
+### NotebookLM 으로 유튜브영상 요약 및 학습
+
+[Git 작동원리 유튜브 영상](https://www.youtube.com/watch?v=RxHJdapz2p0)
+
+<img width="689" height="274" alt="스크린샷 2025-07-31 오후 11 05 13" src="https://github.com/user-attachments/assets/0c4dc19d-b5a5-4fde-b287-2a5182d0f8cb" />
+
+- 영상 요약
+
+<img width="1021" height="641" alt="스크린샷 2025-07-31 오후 11 06 23" src="https://github.com/user-attachments/assets/35b8fd35-36d9-4c5f-93cd-58a2a12d171c" />
+
+- 마인드맵
+  
+<img width="369" height="297" alt="스크린샷 2025-07-31 오후 11 08 50" src="https://github.com/user-attachments/assets/a09d9a37-0601-4365-9367-6bd6e8be0075" />
+
+- FAQ, 학습가이드, 브리핑문서
+
+### 느낀점
+- 링크나 영상을 해석할 수 없는 GPT와 달리 NotebookLM은 처리가 가능해 유용하게 사용할 수 있을 것 같다.
 
 ## Ⓜ️퀘스트 3
 
