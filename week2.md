@@ -156,6 +156,7 @@ FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaS
 <img width="928" height="513" alt="image" src="https://github.com/user-attachments/assets/30483e5e-4db7-4522-b46e-0f1e102a1354" />
 
 - 후기
+
 확실히, claude.ai가 설명하기 위한 코드를 자세하게 설명해주는 느낌이다. gpt는 말로 조목조목 설명하는 느낌이고...
 
 
