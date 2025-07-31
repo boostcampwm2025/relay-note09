@@ -129,6 +129,35 @@ AI 도움을 받아서 문제 설명, 입력/출력 형식, 예제, 조건 등�
 ## Ⓜ️퀘스트 1
 
 ## Ⓜ️퀘스트 2
+### J097 류건
+테스트 수행 결과
+
+claude.ai와 chatgpt 모델을 비교 분석해보았따.
+
+- 테스트 프롬프트
+```
+<--- Last few GCs --->
+
+[89254:0x138008000]    33145 ms: Scavenge (interleaved) 4078.2 (4083.9) -> 4076.2 (4092.9) MB, pooled: 0 MB, 5.62 / 0.00 ms  (average mu = 0.287, current mu = 0.238) allocation failure; 
+[89254:0x138008000]    33599 ms: Mark-Compact (reduce) 4076.3 (4092.9) -> 4076.2 (4078.9) MB, pooled: 0 MB, 394.50 / 0.00 ms  (+ 0.3 ms in 1 steps since start of marking, biggest step 0.3 ms, walltime since start of marking 396 ms) (average mu = 0.251, cu
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 0x10461cdd0 node::OOMErrorHandler(char const*, v8::OOMDetails const&) [/opt/homebrew/Cellar/node/24.3.0/bin/node]
+ 2: 0x10474e0d8 
+
+이 에러에 대해서 설명해줘
+```
+
+- claude.ai
+<img width="852" height="744" alt="image" src="https://github.com/user-attachments/assets/9aa38717-582b-4279-904c-f29272700960" />
+
+- chatgpt
+<img width="928" height="513" alt="image" src="https://github.com/user-attachments/assets/30483e5e-4db7-4522-b46e-0f1e102a1354" />
+
+- 후기
+확실히, claude.ai가 설명하기 위한 코드를 자세하게 설명해주는 느낌이다. gpt는 말로 조목조목 설명하는 느낌이고...
+
 
 ## Ⓜ️퀘스트 3
 
