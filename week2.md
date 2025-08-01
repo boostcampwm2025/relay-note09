@@ -210,6 +210,48 @@ FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaS
 문서의 질은 공식문서나 스택오버플로우 등 신뢰할만한 자료로 두 ai 다 추천된 거 같습니다.
 퍼플렉시티는 출처를 더 추천 받을 수 있어서 검색엔진 같다는 느낌을 더욱 받았습니다.
 
+### J022 권용현
+미션을 수행하면서, 기존에 사용하던 GPT와 새롭게 사용한 Claude를 비교했습니다.
+**[프롬프트]**
+```
+git add를 js로 구현중이야. 파일명을 가지고 Blob을 찾는 함수 중 일부 코드인데, 엔트리들을 반복문으로 돌면서 파일명을 읽을 때 오류가 발생하고 있어. 아래 코드에서 어떤 점이 문제야?
+```
+    for(let i = 0; i < entryCount; i++) { // 엔트리 개수만큼 반복
+        // stat 정보 (40바이트): ctime(8) + mtime(8) + dev(4) + ino(4) + mode(4) + uid(4) + gid(4) + size(4)
+        offset += 40; // stat 정보를 건너뜀
+
+        const sha = buffer.slice(offset, offset + 20).toString('hex'); // 20바이트(sha1 해시)를 16진수 문자열로 변환
+        offset += 20; // sha1 해시 부분을 건너뜀
+
+        offset += 2; // flags 부분을 건너뜀
+
+        // 파일명 읽기 (null-terminated)
+        const nameEnd = buffer.indexOf(0, offset); // 파일명은 널 문자(0)로 끝남. 파일명 끝 위치를 찾음
+        const fileName = buffer.slice(offset, nameEnd).toString(); // 파일명 부분을 문자열로 변환
+
+        console.log(디버그 [${i}]: 찾은 파일명 = "${fileName}", 찾는 파일명 = "${_fileName}");
+
+        if(fileName === _fileName) { // 찾고자 하는 파일명과 일치하면
+            return { fileName, sha }; // 파일명과 sha1 해시를 반환
+        }
+
+        offset = nameEnd + 1; // offset을 파일명 끝 다음(널 문자 다음)으로 이동
+        offset = Math.ceil(offset / 8) * 8; // 8바이트 단위로 패딩(정렬) 처리
+}
+```
+```
+**[GPT]**
+<img width="677" height="405" alt="image" src="https://github.com/user-attachments/assets/16a40301-61ce-4e0e-8d25-cde768402003" />
+
+**[Claude]**
+<img width="764" height="532" alt="image" src="https://github.com/user-attachments/assets/5a71dc88-5e3f-49f9-b659-8d49bbd2b590" />
+
+**느낀점 및 다른점**
+- 실제로 GPT로 미션 구현을 도움을 받고 있었으나, 문제가 해결되지 않고 반복적인 답변만 해주는 답답함이 있었습니다.
+- 똑같은 질문을 Claude에게 다시 시도했을때, 한번에 문제점을 찾고 GPT와는 다른 해결방법을 제시했습니다.
+- 해결방법은 단순히 추측이 아닌 확실한 해결방법으로 제시해준다는 느낌을 받았고, 바로 해결되었던 경험을 했습니다.
+- 일상적인 대화나 광범위한 내용을 알고 싶을 땐 GPT가 도움이 될 수 있지만, 코딩을 하거나 문제 해결을 하는 과정에서는 Claude도 좋은 선택지가 될 거 같습니다.
+
 ## Ⓜ️퀘스트 3
 
 ## Ⓜ️퀘스트 4
