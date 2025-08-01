@@ -157,7 +157,8 @@ FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaS
 
 - 후기
 
-확실히, claude.ai가 설명하기 위한 코드를 자세하게 설명해주는 느낌이다. gpt는 말로 조목조목 설명하는 느낌이고...
+확실히, claude.ai가 설명하기 위한 코드를 자세하게 설명해주는 느낌이다. gpt는 말로 조목조목 설명하는 느낌이다.
+실제로 관련 자료들을 보니, ChatGPT는 이미지 생성 및 인터넷 접속과 같은 기능으로 더 다재다능한 반면, Claude는 더 저렴한 API 액세스와 더 큰 컨텍스트 창(한 번에 더 많은 데이터를 처리할 수 있다는 의미)을 제공한다고 한다.
 
 ### J147 송해찬
 
