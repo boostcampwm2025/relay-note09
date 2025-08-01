@@ -215,7 +215,6 @@ FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaS
 **[프롬프트]**
 ```
 git add를 js로 구현중이야. 파일명을 가지고 Blob을 찾는 함수 중 일부 코드인데, 엔트리들을 반복문으로 돌면서 파일명을 읽을 때 오류가 발생하고 있어. 아래 코드에서 어떤 점이 문제야?
-```
     for(let i = 0; i < entryCount; i++) { // 엔트리 개수만큼 반복
         // stat 정보 (40바이트): ctime(8) + mtime(8) + dev(4) + ino(4) + mode(4) + uid(4) + gid(4) + size(4)
         offset += 40; // stat 정보를 건너뜀
@@ -238,7 +237,6 @@ git add를 js로 구현중이야. 파일명을 가지고 Blob을 찾는 함수 �
         offset = nameEnd + 1; // offset을 파일명 끝 다음(널 문자 다음)으로 이동
         offset = Math.ceil(offset / 8) * 8; // 8바이트 단위로 패딩(정렬) 처리
 }
-```
 ```
 **[GPT]**
 <img width="677" height="405" alt="image" src="https://github.com/user-attachments/assets/16a40301-61ce-4e0e-8d25-cde768402003" />
