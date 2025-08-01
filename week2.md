@@ -180,6 +180,36 @@ FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaS
 ### 느낀점
 - 링크나 영상을 해석할 수 없는 GPT와 달리 NotebookLM은 처리가 가능해 유용하게 사용할 수 있을 것 같다.
 
+### J027 김규리
+미션을 수행하면서, 학습 레퍼런스를 찾을 때 AI 사용을 비교해보았습니다.
+
+**[Perplexity]**
+
+<img width="700" height="752" alt="image" src="https://github.com/user-attachments/assets/63118af8-cb17-4fef-8a74-54d8da9b8c27" />
+
+추천자료
+- https://graphite.dev/guides/git-hash
+- https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
+- https://man.archlinux.org/man/git-hash-object.1.en
+- https://git-scm.com/docs/git-hash-object
+
+**[Chat GPT]**
+개념 요약 생략
+
+<img width="700" height="195" alt="image" src="https://github.com/user-attachments/assets/e73e46a9-8580-4580-8cea-1106feb0101f" />
+
+추천자료
+- Git 객체 모델과 Blob 저장 방식: https://git-scm.com/book/id/v2/Git-Internals-Git-Objects?utm_source=chatgpt.com
+- git add 내부 동작: Blob 생성 및 Index 등록 과정: https://github.blog/open-source/git/gits-database-internals-i-packed-object-store/?utm_source=chatgpt.com
+- 커밋 해시 생성에 포함된 데이터들 (tree, 부모, 메타, 메시지 등): https://stackoverflow.com/questions/34764195/how-does-git-create-unique-commit-hashes-mainly-the-first-few-characters?utm_source=chatgpt.com
+
+### 느낀점
+생각보다 chat gpt도 레퍼런스를 잘 찾아준다는 생각이 들었습니다. 퍼플렉시티는 응답 자체를 어떤 레퍼런스를 근거로 해서 나온 답변인지 나와서 더블 체크하기 좋았습니다.
+반면 지피티는 추천 자료를 어떤 맥락에서 봐야하는지를 알려줘서 필요하면 그 자료를 조회하는 식으로 사용할 수 있을 것 같습니다.
+
+문서의 질은 공식문서나 스택오버플로우 등 신뢰할만한 자료로 두 ai 다 추천된 거 같습니다.
+퍼플렉시티는 출처를 더 추천 받을 수 있어서 검색엔진 같다는 느낌을 더욱 받았습니다.
+
 ## Ⓜ️퀘스트 3
 
 ## Ⓜ️퀘스트 4
